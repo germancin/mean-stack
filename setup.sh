@@ -9,7 +9,6 @@
 	sudo curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 	sudo apt-get install -y nodejs
 	sudo touch package.json
-	sudo npm install -y express --save
 	sudo npm install -g express-generator
 	sudo npm install -g gulp
 	echo "Installing MONGO DB"
